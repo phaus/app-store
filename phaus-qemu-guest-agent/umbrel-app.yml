@@ -2,7 +2,7 @@ manifestVersion: 1
 id: phaus-qemu-guest-agent
 name: QEMU guest agent
 tagline: QEMU guest agent
-icon: https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/icon.png
+icon: https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/icon.svg
 category: Development
 version: "9.0.2"
 port: 4444
