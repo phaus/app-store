@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: qemu-guest-agent
 icon: https://raw.githubusercontent.com/phaus/app-store/main/qemu-guest-agent/icon.svg
-category: developer
+category: Development
 name: QEMU guest agent
 version: "9.0.2"
 tagline: QEMU guest agent
