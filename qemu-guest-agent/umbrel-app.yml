@@ -1,29 +1,30 @@
 manifestVersion: 1
 id: qemu-guest-agent
 name: QEMU guest agent
-version: "9.0.2"
-category: Development
-icon: https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/icon.svg
 tagline: QEMU guest agent
+icon: https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/icon.svg
+category: Development
+version: "9.0.2"
+port: 4444
+description: >-
+  You should install this agent, if you want to run Umbrel as a Guest under QEMU.
+  The icon is "Hypervisor Icons created by Kalashnyk - Flaticon" https://www.flaticon.com/de/kostenlose-icons/hypervisor.  
+  The image comes from "Perform Consistent Snapshots with qemu guest agent" https://feisky.xyz/posts/2015-02-10-perform-consistent-snapshots-with-qemu-guest-agent.  
+
 developer: Philipp Haußleiter
 website: https://wiki.qemu.org/Features/GuestAgent
-dependencies: []
-repo: https://github.com/phaus/qemu-ga-container
-support: https://github.com/phaus/qemu-ga-container/issues
-path: ""
-port: 4444
-gallery:
-  - https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/images/qemu-agent1.jpeg
 submitter: Philipp Haussleiter
 submission:
+repo: https://github.com/phaus/qemu-ga-container
+support: https://github.com/phaus/qemu-ga-container/issues
+gallery:
+  - https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/images/qemu-agent1.jpeg
 releaseNotes: >-
   - Version 9.0.2
   - This is a fork of https://github.com/dskad/qemu-ga-container to support ARM64 builds.
   - Details about the guest agent itself can be found here: https://wiki.qemu.org/Features/GuestAgent 
   - This app does run as a daemon in the background and does not require a port.
-
-description: >-
-  You should install this agent, if you want to run Umbrel as a Guest under QEMU.
-  The icon is [Hypervisor Icons created by Kalashnyk - Flaticon](https://www.flaticon.com/de/kostenlose-icons/hypervisor). The image comes from [Perform Consistent Snapshots with qemu guest agent](https://feisky.xyz/posts/2015-02-10-perform-consistent-snapshots-with-qemu-guest-agent/).  
+dependencies: []
+path: ""
 defaultUsername: ""
 defaultPassword: ""
