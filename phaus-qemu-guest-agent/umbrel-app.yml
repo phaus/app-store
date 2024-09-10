@@ -5,14 +5,14 @@ tagline: QEMU guest agent
 icon: https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/icon.svg
 category: Development
 version: "9.0.2"
-port: 0
+port: 80
 description: >-
-  This is supportive, if you want to run Umbrel as a Guest under QEMU.  
-  It allows the QEMU host to exchange information with the guest.  
-  This is a fork of https://github.com/dskad/qemu-ga-container to support ARM64 builds.  
-  Details about the guest agent itself can be found here: https://wiki.qemu.org/Features/GuestAgent  
-  This app does run as a daemon in the background and does not require a port.  
-  The icon is [Hypervisor Icons created by Kalashnyk - Flaticon](https://www.flaticon.com/de/kostenlose-icons/hypervisor).  
+  This agent should be installed, if you want to run Umbrel as a Guest under QEMU.<br />  
+  It allows the QEMU host to exchange information with the guest.<br />  
+  This is a fork of <a href="https://github.com/dskad/qemu-ga-container">https://github.com/dskad/qemu-ga-container</a> to support ARM64 builds.<br />
+  Details about the guest agent itself can be found <a href="https://wiki.qemu.org/Features/GuestAgent">here</a><br /> 
+  This app does run as a daemon in the background and does not require a port.<br />
+  The icon is <a href="https://www.flaticon.com/de/kostenlose-icons/hypervisor">Hypervisor Icons created by Kalashnyk - Flaticon</a>.  
 developer: Philipp Haußleiter
 website: https://wiki.qemu.org/Features/GuestAgent
 submitter: phaus
@@ -21,10 +21,7 @@ repo: https://github.com/phaus/qemu-ga-container
 support: https://github.com/phaus/qemu-ga-container/issues
 gallery: []
 releaseNotes: >-
-  - Version 9.0.2
-  - This is a fork of https://github.com/dskad/qemu-ga-container to support ARM64 builds.
-  - Details about the guest agent itself can be found here: https://wiki.qemu.org/Features/GuestAgent 
-  - This app does run as a daemon in the background and does not require a port.
+  - Version 9.0.2<br />
 dependencies: []
 path: ""
 defaultUsername: ""
