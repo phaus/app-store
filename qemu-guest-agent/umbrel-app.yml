@@ -13,7 +13,7 @@ description: >-
 
 developer: Philipp Haußleiter
 website: https://wiki.qemu.org/Features/GuestAgent
-submitter: Philipp Haussleiter
+submitter: phaus
 submission:
 repo: https://github.com/phaus/qemu-ga-container
 support: https://github.com/phaus/qemu-ga-container/issues
