@@ -5,7 +5,7 @@ tagline: QEMU guest agent
 icon: https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/icon.svg
 category: Development
 version: "9.0.2"
-port: 4444
+port: 0
 description: >-
   You should install this agent, if you want to run Umbrel as a Guest under QEMU.
   The icon is "Hypervisor Icons created by Kalashnyk - Flaticon" https://www.flaticon.com/de/kostenlose-icons/hypervisor.  
@@ -18,7 +18,7 @@ submission:
 repo: https://github.com/phaus/qemu-ga-container
 support: https://github.com/phaus/qemu-ga-container/issues
 gallery:
-  - https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/images/qemu-agent1.jpeg
+  - https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/images/qemu-agent1.jpeg
 releaseNotes: >-
   - Version 9.0.2
   - This is a fork of https://github.com/dskad/qemu-ga-container to support ARM64 builds.
