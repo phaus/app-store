@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: qemu-guest-agent
+id: phaus-qemu-guest-agent
 name: QEMU guest agent
 tagline: QEMU guest agent
 icon: https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/icon.png
