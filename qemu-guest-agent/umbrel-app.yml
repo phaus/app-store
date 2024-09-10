@@ -11,13 +11,13 @@ dependencies: []
 repo: https://github.com/phaus/qemu-ga-container
 support: https://github.com/phaus/qemu-ga-container/issues
 path: ""
-port: -1
+port: 4444
 gallery:
   - https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/images/qemu-agent1.jpeg
 submitter: Philipp Haussleiter
-submission: https://github.com/getumbrel/umbrel-apps/pull/1444
-releaseNotes: >-
-  Initial version of this app.
+submission:
+releaseNotes: >
+  - Version 9.0.2
 description: >
   This is supportive, if you want to run Umbrel as a Guest under QEMU.
   It allows the QEMU host to exchange information with the guest.
