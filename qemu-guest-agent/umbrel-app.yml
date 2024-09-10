@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: qemu-guest-agent
-icon: https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/icon.svg
-category: Development
 name: QEMU guest agent
 version: "9.0.2"
+category: Development
+icon: https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/icon.svg
 tagline: QEMU guest agent
 developer: Philipp Haußleiter
 website: https://wiki.qemu.org/Features/GuestAgent
@@ -16,9 +16,9 @@ gallery:
   - https://raw.githubusercontent.com/phaus/app-store/master/qemu-guest-agent/images/qemu-agent1.jpeg
 submitter: Philipp Haussleiter
 submission:
-releaseNotes: >
-  - Version 9.0.2
-description: >
+releaseNotes: >-
+  Version 9.0.2
+description: >-
   This is supportive, if you want to run Umbrel as a Guest under QEMU.
   It allows the QEMU host to exchange information with the guest.
   This is a fork of https://github.com/dskad/qemu-ga-container to support ARM64 builds.
