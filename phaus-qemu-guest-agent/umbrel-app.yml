@@ -4,14 +4,15 @@ name: QEMU guest agent
 tagline: QEMU guest agent
 icon: https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/icon.svg
 category: Development
-version: "11.0.4"
+version: "11.1.1"
 port: 16160
 description: >
   This agent should be installed, if you want to run Umbrel as a Guest under QEMU.  
   It allows the QEMU host to exchange information with the guest.  
-  This is a fork of <a href="https://github.com/dskad/qemu-ga-container">https://github.com/dskad/qemu-ga-container</a>.  
+  Based on <a href="https://github.com/phaus/qemu-ga-container">phaus/qemu-ga-container</a>.  
   Details about the guest agent itself can be found <a href="https://wiki.qemu.org/Features/GuestAgent">here</a>  
-  The app includes a stats service with a dashboard (port 16160): CPU, memory, disk, uptime and agent status of the host VM.  
+  The app includes a stats service with a dashboard (port 16160): CPU, memory, disk, uptime and agent status of the host VM,  
+  plus a Prometheus /metrics endpoint on the same port.  
   The icon is <a href="https://www.flaticon.com/de/kostenlose-icons/hypervisor">Hypervisor Icons created by Kalashnyk - Flaticon</a>.  
 developer: Philipp Haußleiter
 website: https://wiki.qemu.org/Features/GuestAgent
@@ -22,11 +23,9 @@ support: https://github.com/phaus/qemu-ga-container/issues
 gallery:
   - https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/screenshots/dashboard.png
 releaseNotes: >
-  - Fix port routing: stats service now listens on 16160 via STATS_PORT env (previously collided with LND on port 8080)
-  - Update to QEMU Guest Agent 11.0.3 (Alpine 3.24)
-  - New stats service with dashboard on port 16160 (JSON API and HTML overview)
-  - System metrics: CPU, load, uptime, memory, disk and agent status
-  - Images now published to GitHub Container Registry (amd64, arm64)
+  - New: Prometheus /metrics endpoint (port 16160) with VM runtime metrics — agent status, OS info, CPU, load, uptime, memory, disk
+  - Update to container image 11.1.1 (repo links + maintainer metadata, no agent changes)
+  - Repo link now points to phaus/qemu-ga-container
 dependencies: []
 path: ""
 defaultUsername: ""
