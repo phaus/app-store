@@ -2,9 +2,11 @@ version: "3.7"
 
 services:
   agent:
-    image: docker.io/phaus/qemu-ga:9.0.2@sha256:1492960bef70c1d7395f7067a0092000dc30cd67bf71072a7ebd234b2dfd1221
+    image: ghcr.io/phaus/qemu-ga-container:11.0.3@sha256:b8f2d4858dcf6134bc53611f1fb9c0bb0dcaf519e395376a5effd6dfff5b8c44
     privileged: true
     network_mode: "host"
+    ports:
+      - "16160:16160"
     volumes:
       - "/dev:/dev"
       - "/var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket"

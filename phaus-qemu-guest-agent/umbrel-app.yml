@@ -4,14 +4,14 @@ name: QEMU guest agent
 tagline: QEMU guest agent
 icon: https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/icon.svg
 category: Development
-version: "9.0.2"
-port: 80
+version: "11.0.3"
+port: 16160
 description: >
   This agent should be installed, if you want to run Umbrel as a Guest under QEMU.  
   It allows the QEMU host to exchange information with the guest.  
-  This is a fork of <a href="https://github.com/dskad/qemu-ga-container">https://github.com/dskad/qemu-ga-container</a> to support ARM64 builds.  
+  This is a fork of <a href="https://github.com/dskad/qemu-ga-container">https://github.com/dskad/qemu-ga-container</a>.  
   Details about the guest agent itself can be found <a href="https://wiki.qemu.org/Features/GuestAgent">here</a>  
-  This app does run as a daemon in the background and does not require a port.  
+  The app includes a stats service with a dashboard (port 16160): CPU, memory, disk, uptime and agent status of the host VM.  
   The icon is <a href="https://www.flaticon.com/de/kostenlose-icons/hypervisor">Hypervisor Icons created by Kalashnyk - Flaticon</a>.  
 developer: Philipp Haußleiter
 website: https://wiki.qemu.org/Features/GuestAgent
@@ -21,7 +21,10 @@ repo: https://github.com/phaus/qemu-ga-container
 support: https://github.com/phaus/qemu-ga-container/issues
 gallery: []
 releaseNotes: >
-  - Version 9.0.2  
+  - Update to QEMU Guest Agent 11.0.3 (Alpine 3.24)
+  - New stats service with dashboard on port 16160 (JSON API and HTML overview)
+  - System metrics: CPU, load, uptime, memory, disk and agent status
+  - Images now published to GitHub Container Registry (amd64, arm64)
 dependencies: []
 path: ""
 defaultUsername: ""
