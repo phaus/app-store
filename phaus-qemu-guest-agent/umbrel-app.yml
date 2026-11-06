@@ -19,7 +19,8 @@ submitter: phaus
 submission:
 repo: https://github.com/phaus/qemu-ga-container
 support: https://github.com/phaus/qemu-ga-container/issues
-gallery: []
+gallery:
+  - https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/screenshots/dashboard.png
 releaseNotes: >
   - Update to QEMU Guest Agent 11.0.3 (Alpine 3.24)
   - New stats service with dashboard on port 16160 (JSON API and HTML overview)
