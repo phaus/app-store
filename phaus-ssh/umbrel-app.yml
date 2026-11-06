@@ -18,7 +18,8 @@ submitter: phaus
 submission:
 repo: https://github.com/phaus/umbrel-ssh
 support: https://github.com/phaus/umbrel-ssh/issues
-gallery: []
+gallery:
+  - https://raw.githubusercontent.com/phaus/app-store/master/phaus-ssh/screenshots/dashboard.png
 releaseNotes: >
   Initial alpha release: web UI to manage SSH keys for root and umbrel,
   boot sync of authorized_keys, key collection as source of truth.
