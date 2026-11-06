@@ -5,6 +5,8 @@ services:
     image: ghcr.io/phaus/qemu-ga-container:11.0.3@sha256:b8f2d4858dcf6134bc53611f1fb9c0bb0dcaf519e395376a5effd6dfff5b8c44
     privileged: true
     network_mode: "host"
+    environment:
+      STATS_PORT: "16160"
     ports:
       - "16160:16160"
     volumes:
