@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: phaus-ssh
+name: SSH Key Manager
+tagline: Manage SSH keys for root and umbrel
+icon: https://raw.githubusercontent.com/phaus/app-store/master/phaus-ssh/icon.svg
+category: development
+version: "0.0.1-alpha"
+port: 16161
+description: >
+  Manage SSH public keys for the root and umbrel users of your Umbrel host.
+  Add or remove keys through a simple web UI — the app keeps a collection of
+  trusted keys, validates them and writes both users' authorized_keys files.
+  On every boot the authorized_keys files are re-synced from the collection,
+  so you can never lock yourself out of your Umbrel.
+developer: Philipp Haußleiter
+website: https://github.com/phaus/umbrel-ssh
+submitter: phaus
+submission:
+repo: https://github.com/phaus/umbrel-ssh
+support: https://github.com/phaus/umbrel-ssh/issues
+gallery: []
+releaseNotes: >
+  Initial alpha release: web UI to manage SSH keys for root and umbrel,
+  boot sync of authorized_keys, key collection as source of truth.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

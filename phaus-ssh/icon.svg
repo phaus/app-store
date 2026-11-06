@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <!-- terminal window -->
+  <rect x="88" y="128" width="336" height="256" rx="28" fill="#ffffff"/>
+  <!-- title bar dots -->
+  <circle cx="128" cy="164" r="12" fill="#f87171"/>
+  <circle cx="164" cy="164" r="12" fill="#fbbf24"/>
+  <circle cx="200" cy="164" r="12" fill="#34d399"/>
+
+  <!-- prompt: > _ -->
+  <path d="M136 232 l44 36 -44 36" fill="none" stroke="#134e4a" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="204" y="288" width="96" height="20" rx="10" fill="#134e4a"/>
+
+  <!-- key overlapping bottom right: bow + shaft -->
+  <g transform="rotate(35 356 356)">
+    <circle cx="330" cy="356" r="34" fill="none" stroke="#fbbf24" stroke-width="22"/>
+    <rect x="364" y="342" width="90" height="28" rx="8" fill="#fbbf24"/>
+    <rect x="428" y="370" width="26" height="22" rx="6" fill="#fbbf24"/>
+    <rect x="452" y="342" width="26" height="22" rx="6" fill="#fbbf24"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  ssh:
+    image: ghcr.io/phaus/umbrel-ssh:0.0.1-alpha@sha256:79615f42a3d62c33773c915feb79a33728d35b26a8bd825ed2bb67cca1f9ddb0
+    privileged: true
+    ports:
+      - "16161:16161"
+    volumes:
+      - "${APP_DATA_DIR}/data:/data"
+      - "/root:/root"
+      - "/home/umbrel:/home/umbrel"
+    restart: on-failure
+    stop_grace_period: 1m
