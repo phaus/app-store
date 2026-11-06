@@ -4,7 +4,7 @@ name: QEMU guest agent
 tagline: QEMU guest agent
 icon: https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/icon.svg
 category: Development
-version: "11.0.3"
+version: "11.0.4"
 port: 16160
 description: >
   This agent should be installed, if you want to run Umbrel as a Guest under QEMU.  
@@ -22,6 +22,7 @@ support: https://github.com/phaus/qemu-ga-container/issues
 gallery:
   - https://raw.githubusercontent.com/phaus/app-store/master/phaus-qemu-guest-agent/screenshots/dashboard.png
 releaseNotes: >
+  - Fix port routing: stats service now listens on 16160 via STATS_PORT env (previously collided with LND on port 8080)
   - Update to QEMU Guest Agent 11.0.3 (Alpine 3.24)
   - New stats service with dashboard on port 16160 (JSON API and HTML overview)
   - System metrics: CPU, load, uptime, memory, disk and agent status

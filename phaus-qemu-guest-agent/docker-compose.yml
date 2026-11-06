@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   agent:
-    image: ghcr.io/phaus/qemu-ga-container:11.0.3@sha256:b8f2d4858dcf6134bc53611f1fb9c0bb0dcaf519e395376a5effd6dfff5b8c44
+    image: ghcr.io/phaus/qemu-ga-container:11.0.4@sha256:7fe465e578ac189e2ce4c43350164a44ce308b0c4f10f4e13859065dfc7659f3
     privileged: true
     network_mode: "host"
     environment:
